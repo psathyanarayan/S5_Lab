@@ -1,0 +1,7 @@
+   while ( fscanf(in_file,"%s", string) == 1)
+                {
+                        //Add a for loop till strstr(string, student) does-not returns null. 
+                        if(strstr(string, student)!=0) {//if match found
+                                num++;
+                        }
+                }
